@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    background-color: transparent;
+    height: auto;
+    width: 70%;
+    color:orange;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}

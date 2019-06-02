@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+.top_bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 20%;
+}
+.top_bar_img{
+    position: relative;
+    width: 100%;
+}
+.logo{
+    margin-top: 1em;
+    position: absolute;
+    display: flex;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
