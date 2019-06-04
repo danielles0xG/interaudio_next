@@ -38,11 +38,7 @@
     
 }
 
-html{
-
-    margin: 0px; padding: 0px;
-    
-}
+*{margin: 0; padding: 0;box-sizing:border-box;}
 body{
     height: 100%;
     padding: 0px !important;
@@ -74,22 +70,17 @@ body{
     max-width: 100%;
     max-height: 100%;
     display: flex;
-      
     justify-content: center;
     z-index: 2;
     position: relative;
-    
     overflow-x: hidden;
-
 }
-
 ._3lbSWTuDuMHjMV5vc9zKQk{
     width: 13%;
     height: 70%;
     margin-top: 15%;
     display:none;
 }
-
 .Px7_fnS9ldiVU_S17XwZ2{
     display: flex;
     flex-direction: column;
@@ -103,13 +94,14 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 2em;
 }
-  
-.pKHYCRFht_iw3ZuhE-fOg:hover ._2v0MhEssCoE6PeqtbdGQYC {
-    display: flex; 
-    
+.Px7_fnS9ldiVU_S17XwZ2:hover ._3I7VuPldF7dQSyNOr60sO7{
+    display: flex;
+}
+._2AzstyvKhubyoD0z-x9Wfx:hover ._3Ek4vc-qw1T-cbV0bJA76H{
+    display: flex;
 }
 ._2v0MhEssCoE6PeqtbdGQYC{
-    display: none;
+    display: none; 
     flex-wrap: wrap;    
     justify-content: center;
     width: 100%;
@@ -120,19 +112,19 @@ body{
     opacity: 0.5;
     cursor: pointer;
     transform: skew(-15deg);
-    z-index: 1;
+    z-index: 2;
 }
 ._3I7VuPldF7dQSyNOr60sO7{
     display: none;
-    z-index: 2;
-    position: absolute;
+    opacity: 1;
+    z-index: 5;
+    position: relative;
     width: 15em;
     margin-top: 13%;
     font-size: 28px;
     margin-left: 1em;
+    cursor: pointer;
 }
-
-
 ._2AzstyvKhubyoD0z-x9Wfx{
     display: flex;
     flex-wrap: wrap;   
@@ -146,20 +138,18 @@ body{
     font-size: 2em;
     font-family: 'Raleway', sans-serif;
 }
-
 ._2AzstyvKhubyoD0z-x9Wfx:hover ._3Ek4vc-qw1T-cbV0bJA76H{
     /* display: flex; */
 }
-
-
 ._3Ek4vc-qw1T-cbV0bJA76H{
     display: none;
     z-index: 2;
     position: absolute;
-    width: 15em;
-    margin-top: 13%;
+    width: 19em;
+    margin-top: 5%;
     font-size: 28px;
     margin-left: 1em;
+    cursor: pointer;
 }
 
 
@@ -182,9 +172,8 @@ body{
 h1{
     cursor: pointer;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     margin-left: 10%;
-    margin-top: 10%;
     overflow-x: hidden;
     cursor: pointer;
 }

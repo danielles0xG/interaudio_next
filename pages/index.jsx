@@ -2,6 +2,7 @@ import React from 'react'
 import TopBar from '../components/TopBar/TopBar'
 import Footer from '../components/Footer/Footer'
 import style from './index.css'
+import Link from 'next/link';
 
 
 const SUBTITULO          = 'AUDIO / VISUAL MINISTRY';
@@ -21,11 +22,13 @@ const Home = () =>{
                     <section className={style.middle_section}>
                         <img src='../static/spk-l.png' className={style.speakers} alt='left_speaker'></img>                    
                     
-                        <div className={style.renta}>
-                            <h1 className={style.renta_h1}>Renta</h1>
-                            <div className={style.renta_card}></div>
-                            <span className={style.renta_text}>{TEXTO_RENTA}</span>
-                        </div>
+                        <Link href="/renta">
+                             <div className={style.renta}>
+                                <h1 className={style.renta_h1}>Renta</h1>
+                                <div className={style.renta_card}></div>
+                                <span className={style.renta_text}>{TEXTO_RENTA}</span>
+                             </div>
+                        </Link>
 
                         <div className={style.instalacion}>                       
                             <h1 className={style.instalacion_h1}>Instalacion</h1>                       
