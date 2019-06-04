@@ -5,6 +5,7 @@ import style from './index.css'
 import Link from 'next/link';
 
 
+
 const SUBTITULO          = 'AUDIO / VISUAL MINISTRY';
 const TEXTO_RENTA        = 'Empleamos equipo profesional de ultima generación. Cubrimos eventos de hasta 500 personas. Garantizamos la mejor calidad y servicio en sonorización de eventos.'
 const TEXTO_INSTALACION  = 'Calibración, equialización, diseño e implementación de sistemas de sonido para instalaciones fijas. Aseguramos el optimo desempeño sonoro de su equipo.';

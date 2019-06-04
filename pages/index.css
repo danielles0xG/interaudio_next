@@ -56,10 +56,10 @@ body{
     font-size: 2em;
 }
 .renta:hover .renta_text{
-    display: flex;
+    opacity: 1;
 }
 .instalacion:hover .instalacion_text{
-    display: flex;
+    opacity: 1;
 }
 .renta_card{
     display: none; 
@@ -76,8 +76,8 @@ body{
     z-index: 2;
 }
 .renta_text{
-    display: none;
-    opacity: 1;
+    display: flex;
+    opacity: 0;
     z-index: 5;
     position: relative;
     width: 15em;
@@ -85,6 +85,8 @@ body{
     font-size: 28px;
     margin-left: 1em;
     cursor: pointer;
+    transition: 0.8s;
+
 }
 .instalacion{
     display: flex;
@@ -95,22 +97,23 @@ body{
     width: 34%;
     height: auto;
     color: white;
+    
     margin-top: 15%;
     font-size: 2em;
     font-family: 'Raleway', sans-serif;
 }
-.instalacion:hover .instalacion_text{
-    /* display: flex; */
-}
+
 .instalacion_text{
-    display: none;
+    display: flex;
     z-index: 2;
+    opacity: 0;
     position: absolute;
     width: 19em;
     margin-top: 5%;
     font-size: 28px;
     margin-left: 1em;
     cursor: pointer;
+    transition: 0.8s;
 }
 
 

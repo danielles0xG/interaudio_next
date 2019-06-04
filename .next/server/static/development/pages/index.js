@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -946,28 +946,28 @@ var Home = function Home() {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.container,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TopBar_TopBar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: SUBTITULO,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.img,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, ">"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.middle_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -976,70 +976,70 @@ var Home = function Home() {
     alt: "left_speaker",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
     href: "/renta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.renta,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.renta_h1,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }, "Renta"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.renta_card,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.renta_text,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, TEXTO_RENTA))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.instalacion,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.instalacion_h1,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 35
     },
     __self: this
   }, "Instalacion"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.instalacion_card,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.instalacion_text,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }, TEXTO_INSTALACION)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -1048,13 +1048,13 @@ var Home = function Home() {
     alt: "left_speaker",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 40
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 43
     },
     __self: this
   }));
@@ -1064,7 +1064,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/index.jsx ***!
   \*******************************/
