@@ -132,15 +132,15 @@ var Footer = function Footer() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    width: "40",
-    height: "40",
+    width: "10",
+    height: "15",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
-    cx: "25",
+    cx: "5",
     cy: "8",
     r: "5",
     fill: "transparent",
@@ -158,15 +158,15 @@ var Footer = function Footer() {
     },
     __self: this
   }, "Puerto Morelos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    width: "40",
-    height: "40",
+    width: "10",
+    height: "15",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
-    cx: "25",
+    cx: "5",
     cy: "8",
     r: "5",
     fill: "transparent",
@@ -184,15 +184,15 @@ var Footer = function Footer() {
     },
     __self: this
   }, "Playa del Carmen"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    width: "40",
-    height: "40",
+    width: "10",
+    height: "15",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
-    cx: "25",
+    cx: "5",
     cy: "8",
     r: "5",
     fill: "transparent",
@@ -210,15 +210,15 @@ var Footer = function Footer() {
     },
     __self: this
   }, "Tul\xFAm"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    width: "40",
-    height: "40",
+    width: "10",
+    height: "15",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
-    cx: "25",
+    cx: "5",
     cy: "8",
     r: "5",
     fill: "transparent",
@@ -236,15 +236,15 @@ var Footer = function Footer() {
     },
     __self: this
   }, "Cozumel"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    width: "40",
-    height: "40",
+    width: "10",
+    height: "15",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", {
-    cx: "25",
+    cx: "5",
     cy: "8",
     r: "5",
     fill: "transparent",
@@ -348,7 +348,16 @@ var TopBar = function TopBar(props) {
 
 module.exports = {
 	"container": "_1dfHw62o6HMAK-fpK4ItW4",
-	"middle_section": "_5W7dxcca2ZAMqIbBUcZBo"
+	"img": "WweJfdSS6PJgefDlFjldj",
+	"middle_section": "_5W7dxcca2ZAMqIbBUcZBo",
+	"speakers": "_3lbSWTuDuMHjMV5vc9zKQk",
+	"renta": "Px7_fnS9ldiVU_S17XwZ2",
+	"renta_h1": "pKHYCRFht_iw3ZuhE-fOg",
+	"renta_card": "_2v0MhEssCoE6PeqtbdGQYC",
+	"renta_text": "_3I7VuPldF7dQSyNOr60sO7",
+	"instalacion": "_2AzstyvKhubyoD0z-x9Wfx",
+	"instalacion_text": "_3Ek4vc-qw1T-cbV0bJA76H",
+	"instalacion_card": "_14URHQEtgcA-kp1KzKGVC6"
 };
 
 /***/ }),
@@ -373,34 +382,117 @@ var _jsxFileName = "/Users/null/Documents/web/interaudio/interaudio_next/pages/i
 
 
 
-var SubTitle = 'AUDIO / VISUAL MINISTRY';
+var SUBTITULO = 'AUDIO / VISUAL MINISTRY';
+var TEXTO_RENTA = 'Empleamos equipo profesional de ultima generación. Cubrimos eventos de hasta 500 personas. Garantizamos la mejor calidad y servicio en sonorización de eventos.';
+var TEXTO_INSTALACION = 'Calibración, equialización, diseño e implementación de sistemas de sonido para instalaciones fijas. Aseguramos el optimo desempeño sonoro de su equipo.';
 
 var Home = function Home() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.container,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_TopBar_TopBar__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: SubTitle,
+    title: SUBTITULO,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 17
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.img,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, ">"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.middle_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 21
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../static/spk-l.png",
+    className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.speakers,
+    alt: "left_speaker",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 22
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.renta,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.renta_h1,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Renta"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.renta_card,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.renta_text,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, TEXTO_RENTA)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.instalacion,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.instalacion_h1,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Instalacion"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.instalacion_card,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.instalacion_text,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, TEXTO_INSTALACION)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../static/spk-r.png",
+    className: _index_css__WEBPACK_IMPORTED_MODULE_3___default.a.speakers,
+    alt: "left_speaker",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
     },
     __self: this
   }));

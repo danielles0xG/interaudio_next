@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 html{
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height: 100%;
+
+    margin: 0px; padding: 0px;
+    
 }
 body{
     height: 100%;
@@ -17,13 +17,135 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     overflow-x: hidden;
+    position:absolute;
 }
-.middle_section{
-    width: 50em;
-    height: 50em;
-    max-width: 100%;
-    max-height: 100%;
-    background-image: url("https://github.com/Danielifg/interaudio_v3/blob/master/src/images/Media/10_Fiestas_de_cumplea%C3%B1os.jpg?raw=true");
+.img{
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    background-image: url("https://github.com/Danielifg/interaudio_next/blob/master/static/HomeImg.jpg?raw=true");
     background-position: center;
     background-size: cover;    
+    z-index: 1;
+    overflow-x: hidden;
+}
+.middle_section{
+    width: 100%;
+    height:87%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+      
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    
+    overflow-x: hidden;
+
+}
+
+.speakers{
+    width: 13%;
+    height: 70%;
+    margin-top: 15%;
+    display:none;
+}
+
+.renta{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    align-content: center;
+    text-align: center;
+    width: 34%;
+    height: auto;
+    color: white;
+    margin-top: 15%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+  
+.renta_h1:hover .renta_card {
+    display: flex; 
+    
+}
+.renta_card{
+    display: none;
+    flex-wrap: wrap;    
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    color: white;   
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(35, 35, 204);
+    opacity: 0.5;
+    cursor: pointer;
+    transform: skew(-15deg);
+    z-index: 1;
+}
+.renta_text{
+    display: none;
+    z-index: 2;
+    position: absolute;
+    width: 15em;
+    margin-top: 13%;
+    font-size: 28px;
+    margin-left: 1em;
+}
+
+
+.instalacion{
+    display: flex;
+    flex-wrap: wrap;   
+    flex-direction: column; 
+    align-content: center;
+    text-align: center;
+    width: 34%;
+    height: auto;
+    color: white;
+    margin-top: 15%;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.instalacion:hover .instalacion_text{
+    /* display: flex; */
+}
+
+
+.instalacion_text{
+    display: none;
+    z-index: 2;
+    position: absolute;
+    width: 15em;
+    margin-top: 13%;
+    font-size: 28px;
+    margin-left: 1em;
+}
+
+
+.instalacion_card{
+    display: none;
+    flex-wrap: wrap;    
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(50, 119, 165);
+    opacity: 0.5;
+    cursor: pointer;
+    z-index: 1;
+    transform: skew(-15deg);
+}
+
+ 
+h1{
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    margin-left: 10%;
+    margin-top: 10%;
+    overflow-x: hidden;
+    cursor: pointer;
 }

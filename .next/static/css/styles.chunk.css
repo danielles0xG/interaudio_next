@@ -1,19 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
 ._177vOvk27bA--KCZB84ine{
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     justify-content: center;
-    height: 20%;
+    height: 10%;
+    z-index: 2;
 }
 .o2c_7XRWS3C0JFMtliO8R{
+    display: none;
     position: relative;
     width: 100%;
 }
 ._2JNWFwL2HhbbjOu8uT6Z9e{
-    margin-top: 1em;
-    position: absolute;
+    margin-top: 5%;
+    position: relative;
     display: flex;
     color: white;
+    align-items: center;
     letter-spacing: 3px;
     font-family: 'Raleway', sans-serif;
     flex-direction: column;
@@ -23,19 +28,20 @@
 .HJlsB9kwBNrFQsO8C0wUN{
     display: flex;
     background-color: transparent;
-    height: auto;
-    width: 70%;
+    height: 1.7rem;
+    width: 100%;
     color:orange;
     justify-content: space-evenly;
     flex-direction: row;
-
+    background-color: black;
+    z-index: 3;
+    
 }
 
 html{
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height: 100%;
+
+    margin: 0px; padding: 0px;
+    
 }
 body{
     height: 100%;
@@ -50,15 +56,137 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     overflow-x: hidden;
+    position:absolute;
 }
-._5W7dxcca2ZAMqIbBUcZBo{
-    width: 50em;
-    height: 50em;
-    max-width: 100%;
-    max-height: 100%;
-    background-image: url("https://github.com/Danielifg/interaudio_v3/blob/master/src/images/Media/10_Fiestas_de_cumplea%C3%B1os.jpg?raw=true");
+.WweJfdSS6PJgefDlFjldj{
+    position: absolute;
+    width: 100%;
+    height: 98%;
+    background-image: url("https://github.com/Danielifg/interaudio_next/blob/master/static/HomeImg.jpg?raw=true");
     background-position: center;
     background-size: cover;    
+    z-index: 1;
+    overflow-x: hidden;
+}
+._5W7dxcca2ZAMqIbBUcZBo{
+    width: 100%;
+    height:87%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+      
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    
+    overflow-x: hidden;
+
+}
+
+._3lbSWTuDuMHjMV5vc9zKQk{
+    width: 13%;
+    height: 70%;
+    margin-top: 15%;
+    display:none;
+}
+
+.Px7_fnS9ldiVU_S17XwZ2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    align-content: center;
+    text-align: center;
+    width: 34%;
+    height: auto;
+    color: white;
+    margin-top: 15%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+  
+.pKHYCRFht_iw3ZuhE-fOg:hover ._2v0MhEssCoE6PeqtbdGQYC {
+    display: flex; 
+    
+}
+._2v0MhEssCoE6PeqtbdGQYC{
+    display: none;
+    flex-wrap: wrap;    
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    color: white;   
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(35, 35, 204);
+    opacity: 0.5;
+    cursor: pointer;
+    transform: skew(-15deg);
+    z-index: 1;
+}
+._3I7VuPldF7dQSyNOr60sO7{
+    display: none;
+    z-index: 2;
+    position: absolute;
+    width: 15em;
+    margin-top: 13%;
+    font-size: 28px;
+    margin-left: 1em;
+}
+
+
+._2AzstyvKhubyoD0z-x9Wfx{
+    display: flex;
+    flex-wrap: wrap;   
+    flex-direction: column; 
+    align-content: center;
+    text-align: center;
+    width: 34%;
+    height: auto;
+    color: white;
+    margin-top: 15%;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+._2AzstyvKhubyoD0z-x9Wfx:hover ._3Ek4vc-qw1T-cbV0bJA76H{
+    /* display: flex; */
+}
+
+
+._3Ek4vc-qw1T-cbV0bJA76H{
+    display: none;
+    z-index: 2;
+    position: absolute;
+    width: 15em;
+    margin-top: 13%;
+    font-size: 28px;
+    margin-left: 1em;
+}
+
+
+._14URHQEtgcA-kp1KzKGVC6{
+    display: none;
+    flex-wrap: wrap;    
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(50, 119, 165);
+    opacity: 0.5;
+    cursor: pointer;
+    z-index: 1;
+    transform: skew(-15deg);
+}
+
+ 
+h1{
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    margin-left: 10%;
+    margin-top: 10%;
+    overflow-x: hidden;
+    cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.chunk.css.map*/
