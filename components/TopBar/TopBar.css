@@ -3,9 +3,11 @@
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    justify-content: center;
-    height: 10%;
+    justify-content: flex-start;
+    height: auto;
+    width: 100%;
     z-index: 2;
+    padding: .5rem;
 }
 .top_bar_img{
     display: none;
@@ -13,7 +15,7 @@
     width: 100%;
 }
 .logo{
-    margin-top: 5%;
+    padding: 1em;
     position: relative;
     display: flex;
     color: white;

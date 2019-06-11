@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  padding: 0px !important;
+  margin: 0px 0px 0px 0px;
+}
+.container {
+  padding: 0px !important;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow-x: hidden;
+  position: absolute;
+}
+.img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://github.com/Danielifg/interaudio_next/blob/master/static/HomeImg.jpg?raw=true");
+  /* background-image: url("https://github.com/Danielifg/interaudio_next/blob/master/static/HomeImg.jpg?raw=true"); */
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+
+  overflow-x: hidden;
+}
+.middle_section {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  position: relative;
+  color: #ffffff;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+.headers {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  position: relative;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+.text_container {
+  width: 100%;
+  border: solid 1px red;
+  height: auto;
+}
+.renta {
+  display: flex;
+  width: 34%;
+  height: auto;
+  color: #ffffff;
+  font-family: "Titillium Web", sans-serif;
+  align-items: center;
+  font-size: 2em;
+  flex-direction: column;
+  padding-bottom: 20%;
+}
+.renta:hover .renta_text {
+  opacity: 1;
+}
+.instalacion:hover .instalacion_text {
+  opacity: 1;
+}
+.test {
+  display: flex;
+  width: 100%;
+}
+.renta_text {
+  display: flex;
+  z-index: 5;
+  position: relative;
+  width: 100%;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.8s;
+  text-align: center;
+  opacity: 0;
+}
+.instalacion_text {
+  display: flex;
+  z-index: 5;
+  position: relative;
+  width: 100%;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.8s;
+  text-align: center;
+  opacity: 0;
+}
+.instalacion {
+  display: flex;
+  flex-direction: column;
+  width: 34%;
+  height: auto;
+
+  font-family: "Titillium Web", sans-serif;
+  justify-content: center;
+  font-size: 2em;
+  align-items: center;
+  padding-bottom: 20%;
+}
+
+h1 {
+  cursor: pointer;
+  z-index: 3;
+  color: #ffffff;
+}
