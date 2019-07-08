@@ -9,20 +9,6 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 
 
-
-const useStyles = makeStyles({
-  list: {
-    width: '100%'
-  },
-  drawerPaper: {
-    width: '100%',
-    
-  },
-  fullList: {
-    width: 'auto',
-  },
-});
-
 function MenuDrawer() {
   const classes = useStyles();
   const [state, setState] = React.useState({
@@ -106,5 +92,18 @@ function MenuDrawer() {
     </div>
   );
 }
+
+const useStyles = makeStyles({
+  list: {
+    width: '100%'
+  },
+  drawerPaper: {
+    width: '100%',
+    
+  },
+  fullList: {
+    width: 'auto',
+  },
+});
 
 export default MenuDrawer;
