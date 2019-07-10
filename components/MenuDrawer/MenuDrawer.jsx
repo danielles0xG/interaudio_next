@@ -81,8 +81,8 @@ function MenuDrawer() {
   );
 
   return (
-    <div>
-      <Button onClick={toggleDrawer('left', true)}>Open Left</Button>
+    <div style={{position:"absolute"}}>
+      <Button onClick={toggleDrawer('left', true)} style={{color:'white'}}>Menu</Button>
       <Drawer open={state.left} onClose={toggleDrawer('left', false)} classes={{
         paper: classes.drawerPaper,
       }}>

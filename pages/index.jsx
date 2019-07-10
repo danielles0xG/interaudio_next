@@ -1,18 +1,17 @@
+import '../scss/main.scss'
 import Link from "next/link"
-import '../css/style.css'
-
+import MenuDrawer from '../components/MenuDrawer/MenuDrawer'
+import Header from '../components/Header/Header'
 const index = () => (
 	<section>
-		<h1 className="header">HEADER</h1>
-		<Link href="About">
-			<a title="About Interaudio">
-				About this site
-			</a>
-		</Link>
+		<nav><MenuDrawer /></nav>
+		<Header />
+
+
 
 
 	</section>
-	
+
 )
 
 export default index;

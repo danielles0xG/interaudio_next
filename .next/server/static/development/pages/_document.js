@@ -2133,36 +2133,30 @@ function (_Document) {
           lineNumber: 7
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "/_next/static/style.css",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
         },
         __self: this
-      }, "Interaudio | Sound Rent - Alquiler de Bocinas equipo de Luz y Sonido"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "../css/style.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 9
-        },
-        __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 10
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 11
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 12
         },
         __self: this
       })));
