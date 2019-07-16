@@ -93,130 +93,10 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./components/Header/Header.jsx":
-/*!**************************************!*\
-  !*** ./components/Header/Header.jsx ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../scss/main.scss */ "./scss/main.scss");
-/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/components/Header/Header.jsx";
-
-
-var COVERTURA = "Cancun - Tulum - Isla Mujeres - Cozumel";
-var TELEFONO = "(998) 2 18 46 16";
-
-var Header = function Header() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
-    className: "header",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "bg-video",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("video", {
-    className: "bg-video__content",
-    autoPlay: true,
-    muted: true,
-    loop: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
-    src: "../static/media/Major-Tom.mp4",
-    type: "video/mp4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
-    src: "../static/media/Major-Tom.webm",
-    type: "video/webm",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), "Your browser is not supported!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "header__text-box",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "heading-primary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "../static/images/slogan-transparent.png",
-    className: "header__logo",
-    alt: "Interaudio Logo",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "heading-primary--sub",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, COVERTURA, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }), TELEFONO)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#section-tours",
-    className: "header__socialIcon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "header__socialIcon--whatsApp",
-    src: "../static/icons/whatsapp-480px.png",
-    alt: "Contacto WhatsApp",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Header);
-
-/***/ }),
-
-/***/ "./components/MenuDrawer/MenuDrawer.jsx":
-/*!**********************************************!*\
-  !*** ./components/MenuDrawer/MenuDrawer.jsx ***!
-  \**********************************************/
+/***/ "./components/NavDrawer/NavDrawer.jsx":
+/*!********************************************!*\
+  !*** ./components/NavDrawer/NavDrawer.jsx ***!
+  \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -246,7 +126,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/components/MenuDrawer/MenuDrawer.jsx";
+var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/components/NavDrawer/NavDrawer.jsx";
 
 
 
@@ -257,7 +137,7 @@ var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/components/M
 
 
 
-function MenuDrawer() {
+function NavDrawer() {
   var classes = useStyles();
 
   var _React$useState = react__WEBPACK_IMPORTED_MODULE_3___default.a.useState({
@@ -460,7 +340,7 @@ function MenuDrawer() {
     })));
   };
 
-  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("nav", {
     style: {
       position: "absolute"
     },
@@ -498,13 +378,180 @@ var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__["ma
     width: '100%'
   },
   drawerPaper: {
-    width: '100%'
+    width: '20%'
   },
   fullList: {
     width: 'auto'
   }
 });
-/* harmony default export */ __webpack_exports__["default"] = (MenuDrawer);
+/* harmony default export */ __webpack_exports__["default"] = (NavDrawer);
+
+/***/ }),
+
+/***/ "./components/Slider/Slider.jsx":
+/*!**************************************!*\
+  !*** ./components/Slider/Slider.jsx ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../scss/main.scss */ "./scss/main.scss");
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_8__);
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/components/Slider/Slider.jsx";
+
+
+
+var Slider =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Slider, _React$Component);
+
+  function Slider() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Slider);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Slider)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {
+      index: 1,
+      images: _this.props.slides.images
+    });
+
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Slider, [{
+    key: "_plusSlides",
+    value: function _plusSlides() {
+      var _this$state = this.state,
+          index = _this$state.index,
+          images = _this$state.images;
+
+      if (index === images.length - 1) {
+        return this.setState({
+          index: 0
+        });
+      } else {
+        return this.setState({
+          index: index + 1
+        });
+      }
+    }
+  }, {
+    key: "_currentSlides",
+    value: function _currentSlides() {
+      var _this$state2 = this.state,
+          index = _this$state2.index,
+          images = _this$state2.images;
+
+      if (index === 0) {
+        return this.setState({
+          index: images.length - 1
+        });
+      } else {
+        return this.setState({
+          index: index - 1
+        });
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var images = this.props.slides.images;
+      var index = this.state.index;
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "slideshow-container",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "fade",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "numbertext",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, images.length), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        src: images[index],
+        style: {
+          width: '100%'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "text",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, images[index] ? images[index].toString() : 'Nan')), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "prev",
+        onClick: function onClick() {
+          return _this2._currentSlides();
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        },
+        __self: this
+      }, "\u276E"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+        className: "next",
+        onClick: function onClick() {
+          return _this2._plusSlides();
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, "\u276F"));
+    }
+  }]);
+
+  return Slider;
+}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Slider);
 
 /***/ }),
 
@@ -725,6 +772,77 @@ function _arrayWithHoles(arr) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _assertThisInitialized; });
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _classCallCheck; });
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _createClass; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
 /*!***************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
@@ -751,6 +869,63 @@ function _defineProperty(obj, key, value) {
   }
 
   return obj;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _getPrototypeOf; });
+/* harmony import */ var _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js");
+/* harmony import */ var _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function _getPrototypeOf(o) {
+  _getPrototypeOf = _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1___default.a ? _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default.a : function _getPrototypeOf(o) {
+    return o.__proto__ || _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default()(o);
+  };
+  return _getPrototypeOf(o);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _inherits; });
+/* harmony import */ var _core_js_object_create__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
+/* harmony import */ var _core_js_object_create__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_create__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _setPrototypeOf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js");
+
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = _core_js_object_create__WEBPACK_IMPORTED_MODULE_0___default()(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) Object(_setPrototypeOf__WEBPACK_IMPORTED_MODULE_1__["default"])(subClass, superClass);
 }
 
 /***/ }),
@@ -855,6 +1030,54 @@ function _objectSpread(target) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _possibleConstructorReturn; });
+/* harmony import */ var _helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../helpers/esm/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js");
+/* harmony import */ var _assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (Object(_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__["default"])(call) === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return Object(_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__["default"])(self);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _setPrototypeOf; });
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
+/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0__);
+
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0___default.a || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js":
 /*!**************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js ***!
@@ -873,6 +1096,41 @@ __webpack_require__.r(__webpack_exports__);
 
 function _slicedToArray(arr, i) {
   return Object(_arrayWithHoles__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || Object(_iterableToArrayLimit__WEBPACK_IMPORTED_MODULE_1__["default"])(arr, i) || Object(_nonIterableRest__WEBPACK_IMPORTED_MODULE_2__["default"])();
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _typeof; });
+/* harmony import */ var _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js");
+/* harmony import */ var _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_js_symbol__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js");
+/* harmony import */ var _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_symbol__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+function _typeof2(obj) { if (typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && typeof _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default.a === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && obj.constructor === _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a && obj !== _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+
+function _typeof(obj) {
+  if (typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && _typeof2(_core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default.a) === "symbol") {
+    _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    _typeof = function _typeof(obj) {
+      return obj && typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && obj.constructor === _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a && obj !== _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
+
+  return _typeof(obj);
 }
 
 /***/ }),
@@ -1302,8 +1560,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_MenuDrawer_MenuDrawer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/MenuDrawer/MenuDrawer */ "./components/MenuDrawer/MenuDrawer.jsx");
-/* harmony import */ var _components_Header_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Header/Header */ "./components/Header/Header.jsx");
+/* harmony import */ var _components_NavDrawer_NavDrawer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/NavDrawer/NavDrawer */ "./components/NavDrawer/NavDrawer.jsx");
+/* harmony import */ var _components_Slider_Slider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Slider/Slider */ "./components/Slider/Slider.jsx");
+/* harmony import */ var _static_assets__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/assets */ "./static/assets.js");
 var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/pages/index.jsx";
 
 
@@ -1311,32 +1570,130 @@ var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/pages/index.
 
 
 
+var COVERTURA = "Cancun - Tulum - Isla Mujeres - Cozumel";
+var TELEFONO = "(998) 2 18 46 16";
+
 var index = function index() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("content", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavDrawer_NavDrawer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MenuDrawer_MenuDrawer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+    className: "header",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 15
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "bg-video",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 17
     },
     __self: this
-  }));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("video", {
+    className: "bg-video__content",
+    autoPlay: true,
+    muted: true,
+    loop: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
+    src: "../static/media/Major-Tom.mp4",
+    type: "video/mp4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
+    src: "../static/media/Major-Tom.webm",
+    type: "video/webm",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), "Your browser is not supported!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "header__text-box",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "heading-primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../static/images/slogan-transparent.png",
+    className: "header__logo",
+    alt: "Interaudio Logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "heading-primary--sub",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, COVERTURA, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }), TELEFONO)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#section-tours",
+    className: "header__socialIcon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "header__socialIcon--whatsApp",
+    src: "../static/icons/whatsapp-480px.png",
+    alt: "Contacto WhatsApp",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "slider",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slider__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    slides: _static_assets__WEBPACK_IMPORTED_MODULE_5__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (index);
@@ -1351,6 +1708,22 @@ var index = function index() {
 /***/ (function(module, exports) {
 
 
+
+/***/ }),
+
+/***/ "./static/assets.js":
+/*!**************************!*\
+  !*** ./static/assets.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var assets = {
+  images: ['../static/images/01_Pristine_audio_quality.jpg', '../static/images/02_Sonorización_Profesional.jpg', '../static/images/03_Live_Sound.jpg', '../static/images/04_Refuerzo_Sonoro.jpg', '../static/images/05_Dj_VDj.jpg', '../static/images/06_International_Djs.jpg', '../static/images/07_Mezcla_y_grabación_en_vivo.jpg', '../static/images/08_PA_Speakers_rental.jpg', '../static/images/10_Fiestas_de_cumpleaños.jpg', '../static/images/11_Pool_party.jpg', '../static/images/12_Sistema_lineal_compacto_array_450_W.jpg', '../static/images/13_Wall_of_Sound.jpg', '../static/images/14_Israeliens.jpg', '../static/images/15_your_stage_partner.jpg', '../static/images/16_dj_boda.jpg', '../static/images/17_selina.jpg', '../static/images/18_urano_130.jpg', '../static/images/19_your_stage_partner.jpg']
+};
+/* harmony default export */ __webpack_exports__["default"] = (assets);
 
 /***/ }),
 

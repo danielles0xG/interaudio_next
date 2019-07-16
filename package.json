@@ -10,11 +10,14 @@
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "babel-loader": "^8.0.6",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
     "emit-file-loader": "0.0.2",
     "next": "^8.1.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^3.0.0",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6"
   },
   "husky": {
@@ -30,7 +33,7 @@
   },
   "scripts": {
     "dev": "npm-run-all --parallel next watch:sass",
-    "next": "next",
+    "next": "next -p 3001",
     "build": "next build",
     "start": "next start",
     "compile:sass": "node-sass scss/main.scss css/style.comp.css",

@@ -1,5 +1,12 @@
-@import "_base.scss";
-@import "_typography.scss";
-@import "_vars.scss";
-@import "_mixins.scss";
-@import "../components/Header/_header.scss";
+// Inherit Base
+@import "./inherit/_base.scss";
+@import "./inherit/_typography.scss";
+@import "./inherit/_vars.scss";
+@import "./inherit/_mixins.scss";
+
+// Layouts
+@import "./layout/_index.scss";
+
+
+// Components
+@import "../components/Slider/Slider.scss";

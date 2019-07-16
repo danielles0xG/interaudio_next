@@ -1,44 +1,56 @@
 import '../scss/main.scss'
 import Link from "next/link"
-import MenuDrawer from '../components/MenuDrawer/MenuDrawer'
-import Header from '../components/Header/Header'
+import NavDrawer from '../components/NavDrawer/NavDrawer'
+import Slider from '../components/Slider/Slider'
+import assets from '../static/assets'
+
+const COVERTURA = "Cancun - Tulum - Isla Mujeres - Cozumel";
+const TELEFONO = "(998) 2 18 46 16"; 
+
+
 const index = () => (
-	<section>
-		<nav><MenuDrawer /></nav>
-		 <Header />
+	<content>
+		<NavDrawer />
 
-		 <section class="section-about">
-                <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary">
-                        Exciting tours for adventurous people
-                    </h2>
-                </div>
+		<header className="header" >
 
-                <div class="row">
-                    <div class="col-1-of-2">
-                        <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
-                        <p class="paragraph">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
-                            ducimus quam nisi exercitationem omnis earum qui.
-                        </p>
+			<div className="bg-video">
+					<video className="bg-video__content" autoPlay muted loop>
+							<source src="../static/media/Major-Tom.mp4" type="video/mp4"></source>
+							<source src="../static/media/Major-Tom.webm" type="video/webm"></source>
+											Your browser is not supported!
+					</video>
+			</div>
 
-                        <h3 class="heading-tertiary u-margin-bottom-small">Live adventures like you never have before</h3>
-                        <p class="paragraph">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum nam.
-                        </p>
-
-                        <a href="#" class="btn-text">Learn more &rarr;</a>
-                    </div>
-                    <div class="col-1-of-2">
-    
-                    </div>
-                </div>
-            </section>
+			<div className='header__text-box' >
+				<h1 className="heading-primary">
+					<img src="../static/images/slogan-transparent.png" className="header__logo"
+						alt="Interaudio Logo"></img>
+					<span className="heading-primary--sub">
+						{COVERTURA}
+						<br></br>
+						{TELEFONO}
+					</span>
+				</h1>
+				<a href="#section-tours" className="header__socialIcon">
+					<img className="header__socialIcon--whatsApp" src='../static/icons/whatsapp-480px.png'
+						alt="Contacto WhatsApp"></img>
+				</a>
+			</div>
+		</header>
 
 
+		<section className="slider">
+							<Slider slides={assets} />
+
+		</section>
 
 
-	</section>
+
+
+
+
+	</content>
 
 )
 

@@ -2105,7 +2105,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/pages/_document.js";
 
-
+ //import Footer from '../components/Footer/Footer'
 
 var MyDocument =
 /*#__PURE__*/
@@ -2124,39 +2124,65 @@ function (_Document) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("html", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 6
+          lineNumber: 7
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["Head"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 7
+          lineNumber: 8
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("script", {
+        src: "https://code.jquery.com/jquery-3.4.1.slim.min.js",
+        integrity: "sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=",
+        crossorigin: "anonymous",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "stylesheet",
         href: "/_next/static/style.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 12
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+        name: "viewport",
+        content: "initial-scale=1.0, width=device-width",
+        key: "viewport",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("script", {
+        type: "text/javascript",
+        src: "../static/slider.js",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 17
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 19
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 21
         },
         __self: this
       })));

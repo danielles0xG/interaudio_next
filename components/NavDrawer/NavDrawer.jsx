@@ -9,7 +9,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 
 
-function MenuDrawer() {
+function NavDrawer() {
   const classes = useStyles();
   const [state, setState] = React.useState({
     top: false,
@@ -81,7 +81,7 @@ function MenuDrawer() {
   );
 
   return (
-    <div style={{position:"absolute"}}>
+    <nav style={{position:"absolute"}}>
       <Button onClick={toggleDrawer('left', true)} style={{color:'white'}}>Menu</Button>
       <Drawer open={state.left} onClose={toggleDrawer('left', false)} classes={{
         paper: classes.drawerPaper,
@@ -89,7 +89,7 @@ function MenuDrawer() {
         {sideList('left')}
       </Drawer>
 
-    </div>
+    </nav>
   );
 }
 
@@ -98,7 +98,7 @@ const useStyles = makeStyles({
     width: '100%'
   },
   drawerPaper: {
-    width: '100%',
+    width: '20%',
     
   },
   fullList: {
@@ -106,4 +106,4 @@ const useStyles = makeStyles({
   },
 });
 
-export default MenuDrawer;
+export default NavDrawer;

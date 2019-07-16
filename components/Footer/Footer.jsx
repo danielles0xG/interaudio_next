@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './Footer.css'
 
-const Footer = () =>{
+const Footer = () => {
     return(
         <div className={style.footer}>            
                     <svg  width="10" height="15">
