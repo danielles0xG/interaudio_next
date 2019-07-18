@@ -16,8 +16,7 @@ const assets = {
 				'../static/images/15_your_stage_partner.jpg',
 				'../static/images/16_dj_boda.jpg',
 				'../static/images/17_selina.jpg',
-				'../static/images/18_urano_130.jpg',
-				'../static/images/19_your_stage_partner.jpg'    
+				'../static/images/18_urano_130.jpg'  
 			]
 		
 }

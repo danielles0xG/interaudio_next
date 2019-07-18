@@ -23,26 +23,25 @@ class Slider extends React.Component{
 				return this.setState({index:index - 1});
 			}			
 	}
+
+
 		render() {
 			let { images } = this.props.slides
 			let { index }  = this.state
 
 			return(
 						<div className="slideshow-container">					
-								<div className="fade">
-									<div className="numbertext">{images.length}</div>
-										<img src={images[index]} style={{ width: '100%' }} />
+								<div className="fade">									
+										<img src={images[index]} className="slideshow-container__img"  />
 										<div className="text">
 													{images[index]?images[index].toString():'Nan'}
 										</div>
 								</div>							
 
-					<a className="prev" onClick={() => this._currentSlides()}>
-						&#10094;
-					</a>
-					<a className="next" onClick={() => this._plusSlides()}>
-						&#10095;
-					</a>
+								<div className="slideshow-container__controls">
+										<a className="prev" onClick={() => this._currentSlides()}>&#10094;</a>
+										<a className="next" onClick={() => this._plusSlides()}>&#10095;</a>
+								</div>
 
 				</div>)
 	}

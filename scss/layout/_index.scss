@@ -70,9 +70,68 @@
 
 }
 
-.slider_sectioon{
+.section__about{
+	display: flex;
+	justify-content: space-around;
 	position: relative;
-	
-	border: solid 1px;
+	padding: 5rem 0;
 	height: 50em;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+
+	&--columns{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-evenly;			
+				padding: 5rem 0;
+				height:100%;
+				
+				
+		&-aside{
+			width: 45%;
+			height: 100%;
+			text-align: left;
+			padding: 1em;
+		}
+		&-images{
+			width: 45%;
+			height: 100%;
+		}
+	}
 }
+
+.section__paquetes{
+	transform: skewY(-8deg);
+	background: #f7f7f7;
+	height:50em;
+	text-align: center;
+	width: 100%;
+
+
+	&-card{
+
+		padding-top: 2rem;
+		display: flex;
+		flex-shrink: 1;
+		justify-content: space-around;
+		transform: skewY(8deg);
+	}
+	&--heading-fix{
+		transform: skewY(8deg);
+		margin-top: 5rem;
+	}
+}
+// .footer{
+// 	position: relative;
+
+// 	height: 10em;
+// 	display: flex;
+// 	flex-wrap: wrap;
+// 	flex-direction: column;
+// 	justify-content: space-between;
+// 	background-image: linear-gradient(120deg, transparent 0%, transparent 50%, blue 50%);
+
+// }

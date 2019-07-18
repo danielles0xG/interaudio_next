@@ -1,8 +1,9 @@
-// Inherit Base
-@import "./inherit/_base.scss";
-@import "./inherit/_typography.scss";
-@import "./inherit/_vars.scss";
-@import "./inherit/_mixins.scss";
+// abstracts Base
+
+@import "./abstracts/_vars.scss";
+@import "./abstracts/_mixins.scss";
+@import "./abstracts/_base.scss";
+@import "./abstracts/_typography.scss";
 
 // Layouts
 @import "./layout/_index.scss";
@@ -10,3 +11,5 @@
 
 // Components
 @import "../components/Slider/Slider.scss";
+@import "../components/Footer/Footer.scss";
+@import "../components/PaqueteCard/PaqueteCard.scss";

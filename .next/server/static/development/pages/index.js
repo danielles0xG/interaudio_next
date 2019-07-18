@@ -93,6 +93,149 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/Footer/Footer.jsx":
+/*!**************************************!*\
+  !*** ./components/Footer/Footer.jsx ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../scss/main.scss */ "./scss/main.scss");
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/components/Footer/Footer.jsx";
+
+
+
+var Footer = function Footer() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    class: "footer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "footer__logo-box",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("picture", {
+    class: "footer__logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    alt: "Full logo",
+    src: "../../static/images/white_logo.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "footer__navigation",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    class: "footer__list",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    class: "footer__item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#",
+    class: "footer__link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "Company")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    class: "footer__item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#",
+    class: "footer__link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Contact us")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    class: "footer__item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#",
+    class: "footer__link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "Carrers")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    class: "footer__item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#",
+    class: "footer__link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "Privacy policy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    class: "footer__item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#",
+    class: "footer__link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "Terms")))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
 /***/ "./components/NavDrawer/NavDrawer.jsx":
 /*!********************************************!*\
   !*** ./components/NavDrawer/NavDrawer.jsx ***!
@@ -388,6 +531,138 @@ var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__["ma
 
 /***/ }),
 
+/***/ "./components/PaqueteCard/PaqueteCard.jsx":
+/*!************************************************!*\
+  !*** ./components/PaqueteCard/PaqueteCard.jsx ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../scss/main.scss */ "./scss/main.scss");
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/components/PaqueteCard/PaqueteCard.jsx";
+
+
+
+var PaqueteCard = function PaqueteCard() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "card",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "card__side card__side--front",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    class: "card__heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "The Sea Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "card__details",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "3 day tours"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Up to 30 people"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "2 tour guides"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Sleep in cozy hotels"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "Difficulty: easy")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "card__side card__side--back card__side--back-1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "card__cta",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "card__price-box",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    class: "card__price-only",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Only"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    class: "card__price-value",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "$297")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#popup",
+    class: "btn btn--white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Book now!"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PaqueteCard);
+
+/***/ }),
+
 /***/ "./components/Slider/Slider.jsx":
 /*!**************************************!*\
   !*** ./components/Slider/Slider.jsx ***!
@@ -490,48 +765,46 @@ function (_React$Component) {
         className: "slideshow-container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 33
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "fade",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "numbertext",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33
-        },
-        __self: this
-      }, images.length), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: images[index],
-        style: {
-          width: '100%'
-        },
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 34
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        src: images[index],
+        className: "slideshow-container__img",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         },
         __self: this
-      }, images[index] ? images[index].toString() : 'Nan')), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+      }, images[index] ? images[index].toString() : 'Nan')), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "slideshow-container__controls",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         className: "prev",
         onClick: function onClick() {
           return _this2._currentSlides();
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 42
         },
         __self: this
       }, "\u276E"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -544,7 +817,7 @@ function (_React$Component) {
           lineNumber: 43
         },
         __self: this
-      }, "\u276F"));
+      }, "\u276F")));
     }
   }]);
 
@@ -1562,7 +1835,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_NavDrawer_NavDrawer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/NavDrawer/NavDrawer */ "./components/NavDrawer/NavDrawer.jsx");
 /* harmony import */ var _components_Slider_Slider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Slider/Slider */ "./components/Slider/Slider.jsx");
-/* harmony import */ var _static_assets__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/assets */ "./static/assets.js");
+/* harmony import */ var _components_PaqueteCard_PaqueteCard__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/PaqueteCard/PaqueteCard */ "./components/PaqueteCard/PaqueteCard.jsx");
+/* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Footer/Footer */ "./components/Footer/Footer.jsx");
+/* harmony import */ var _static_assets__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/assets */ "./static/assets.js");
 var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/pages/index.jsx";
 
 
@@ -1570,27 +1845,29 @@ var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/pages/index.
 
 
 
-var COVERTURA = "Cancun - Tulum - Isla Mujeres - Cozumel";
-var TELEFONO = "(998) 2 18 46 16";
+
+
+var COVERTURA = 'Cancun - Tulum - Isla Mujeres - Cozumel';
+var TELEFONO = '(998) 2 18 46 16';
 
 var index = function index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("content", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavDrawer_NavDrawer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
     className: "header",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1649,8 +1926,14 @@ var index = function index() {
       lineNumber: 27
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "heading-primary--sub",
+    className: "heading-primary",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -1659,7 +1942,7 @@ var index = function index() {
   }, COVERTURA, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
   }), TELEFONO)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -1667,7 +1950,7 @@ var index = function index() {
     className: "header__socialIcon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -1676,24 +1959,123 @@ var index = function index() {
     alt: "Contacto WhatsApp",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "slider",
+    class: "section__about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    class: "heading-secondary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "Renta de audio e iluminaci\xF3n profesional"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "section__about--columns",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("aside", {
+    className: "section__about--columns-aside",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "WON THE MOMENT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, natus? Illo adipisci enim officiis, consequatur quis blanditiis eveniet recusandae molestiae atque reprehenderit dignissimos sunt, molestias nesciunt sit modi maiores. Similique."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#",
+    class: "btn-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "Learn more \u2192")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "section__about--columns-images",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slider__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    slides: _static_assets__WEBPACK_IMPORTED_MODULE_5__["default"],
+    slides: _static_assets__WEBPACK_IMPORTED_MODULE_7__["default"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 62
     },
     __self: this
-  })));
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "section__paquetes",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    class: "heading-secondary section__paquetes--heading-fix",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, "Servicios / Eventos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "section__paquetes-card",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PaqueteCard_PaqueteCard__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PaqueteCard_PaqueteCard__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PaqueteCard_PaqueteCard__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (index);
@@ -1721,7 +2103,7 @@ var index = function index() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var assets = {
-  images: ['../static/images/01_Pristine_audio_quality.jpg', '../static/images/02_Sonorización_Profesional.jpg', '../static/images/03_Live_Sound.jpg', '../static/images/04_Refuerzo_Sonoro.jpg', '../static/images/05_Dj_VDj.jpg', '../static/images/06_International_Djs.jpg', '../static/images/07_Mezcla_y_grabación_en_vivo.jpg', '../static/images/08_PA_Speakers_rental.jpg', '../static/images/10_Fiestas_de_cumpleaños.jpg', '../static/images/11_Pool_party.jpg', '../static/images/12_Sistema_lineal_compacto_array_450_W.jpg', '../static/images/13_Wall_of_Sound.jpg', '../static/images/14_Israeliens.jpg', '../static/images/15_your_stage_partner.jpg', '../static/images/16_dj_boda.jpg', '../static/images/17_selina.jpg', '../static/images/18_urano_130.jpg', '../static/images/19_your_stage_partner.jpg']
+  images: ['../static/images/01_Pristine_audio_quality.jpg', '../static/images/02_Sonorización_Profesional.jpg', '../static/images/03_Live_Sound.jpg', '../static/images/04_Refuerzo_Sonoro.jpg', '../static/images/05_Dj_VDj.jpg', '../static/images/06_International_Djs.jpg', '../static/images/07_Mezcla_y_grabación_en_vivo.jpg', '../static/images/08_PA_Speakers_rental.jpg', '../static/images/10_Fiestas_de_cumpleaños.jpg', '../static/images/11_Pool_party.jpg', '../static/images/12_Sistema_lineal_compacto_array_450_W.jpg', '../static/images/13_Wall_of_Sound.jpg', '../static/images/14_Israeliens.jpg', '../static/images/15_your_stage_partner.jpg', '../static/images/16_dj_boda.jpg', '../static/images/17_selina.jpg', '../static/images/18_urano_130.jpg']
 };
 /* harmony default export */ __webpack_exports__["default"] = (assets);
 
