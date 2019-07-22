@@ -2,9 +2,10 @@ import '../scss/main.scss';
 import Link from 'next/link';
 import NavDrawer from '../components/NavDrawer/NavDrawer';
 import Slider from '../components/Slider/Slider';
-import PaqueteCard from '../components/PaqueteCard/PaqueteCard'
-import Footer from '../components/Footer/Footer'
+import PaqueteCard from '../components/PaqueteCard/PaqueteCard';
+import Footer from '../components/Footer/Footer';
 import assets from '../static/assets';
+import data from '../data/paquetes';
 
 const COVERTURA = 'Cancun - Tulum - Isla Mujeres - Cozumel';
 const TELEFONO = '(998) 2 18 46 16';
@@ -27,7 +28,6 @@ const index = () => (
 					<img src="../static/images/slogan-transparent.png" className="header__logo" alt="Interaudio Logo" />
 					<br />
 					<span className="heading-primary">
-					
 						{COVERTURA}
 						<br />
 						{TELEFONO}
@@ -42,43 +42,38 @@ const index = () => (
 				</a>
 			</div>
 		</header>
-		
+
 		<section class="section__about">
-		<h2 class="heading-secondary">Renta de audio e iluminación profesional</h2>
+			Ç
+			<h2 class="heading-secondary">Renta de audio e iluminación profesional</h2>
+			<div className="section__about--columns">
+				<aside className="section__about--columns-aside">
+					<h1 >Cubrimos audiencias de hasta 300 personas</h1>
+					<h2>
+					Audio - Iluminación - Dj - Proyector - Eventos - Fiestas - Bodas - Conciertos - Karaoke - Cancún - PDC - Tulúm - Cozumel - Quintana Roo - Sound Rent Alquiler de Bocinas equipo de Luz y Sonido 
+					Spoken english.
+					</h2>
+					<br />
+					<a href="#" class="btn-text">
+						Learn more &rarr;
+					</a>
+				</aside>
 
-					<div className="section__about--columns">
-						<aside className="section__about--columns-aside">
-							<h1>WON THE MOMENT</h1>
-							<h2>
-								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, natus? Illo adipisci
-								enim officiis, consequatur quis blanditiis eveniet recusandae molestiae atque reprehenderit
-								dignissimos sunt, molestias nesciunt sit modi maiores. Similique.
-							</h2>
-							<br/>
-							<a href="#" class="btn-text">Learn more &rarr;</a>
-						</aside>
-
-						<div className="section__about--columns-images">
-							<Slider slides={assets} />
-						</div>
-					</div>
-		</section>
-
-		
-		 
-		<section className="section__paquetes">
-		<h2 class="heading-secondary section__paquetes--heading-fix">
-					 Servicios / Eventos
-		  </h2> 
-				<div className="section__paquetes-card">
-							
-							<PaqueteCard/>
-							<PaqueteCard/>
-							<PaqueteCard/>
+				<div className="section__about--columns-images">
+					<Slider slides={assets} />
 				</div>
+			</div>
 		</section>
-			<Footer/>
-		
+
+		<section className="section__paquetes">
+			<h2 class="heading-secondary section__paquetes--heading-fix">Servicios / Eventos</h2>
+			<div className="section__paquetes-card">
+					{data.data.map(p => (
+							<PaqueteCard paquete={p}/>
+					))}			 									
+			</div>
+		</section>
+		<Footer />
 	</content>
 );
 

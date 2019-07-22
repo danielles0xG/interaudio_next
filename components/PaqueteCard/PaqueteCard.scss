@@ -9,7 +9,7 @@
 	width: 30%;
 	
 	&__side {
-			height: 32rem;
+			height: 70rem;
 			transition: all .8s ease;
 			position: absolute;
 			top: 0;
@@ -79,14 +79,13 @@
 	}
 
 	&__heading {
+		margin-top:1.5rem;
 			font-size: 1.8rem;
 			font-weight: 300;
 			text-transform: uppercase;
 			text-align: center;
 			color: black;
-			
-
-	
+		
 	}
 
 	&__heading-span {
@@ -117,7 +116,7 @@
 
 			ul {
 					list-style: none;
-					width: 80%;
+					width: 95%;
 					margin: 0 auto;
 
 					li {

@@ -447,12 +447,14 @@ var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/components/P
 
 
 
-var PaqueteCard = function PaqueteCard() {
+var PaqueteCard = function PaqueteCard(paquete) {
+  var p = paquete.paquete;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    key: paquete.id,
     class: "card",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -469,7 +471,7 @@ var PaqueteCard = function PaqueteCard() {
       lineNumber: 10
     },
     __self: this
-  }, "The Sea Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, p.titulo), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "card__details",
     __source: {
       fileName: _jsxFileName,
@@ -482,69 +484,47 @@ var PaqueteCard = function PaqueteCard() {
       lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, "3 day tours"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, "Up to 30 people"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, "2 tour guides"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "Sleep in cozy hotels"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "Difficulty: easy")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, p.data.map(function (i) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }, i.info);
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "card__side card__side--back card__side--back-1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "card__cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "card__price-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     class: "card__price-only",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 23
     },
     __self: this
   }, "Only"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     class: "card__price-value",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 24
     },
     __self: this
   }, "$297")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -552,7 +532,7 @@ var PaqueteCard = function PaqueteCard() {
     class: "btn btn--white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 26
     },
     __self: this
   }, "Book now!"))));
@@ -689,7 +669,7 @@ function (_React$Component) {
           lineNumber: 36
         },
         __self: this
-      }, images[index] ? images[index].toString() : 'Nan')), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "slideshow-container__controls",
         __source: {
           fileName: _jsxFileName,
@@ -724,6 +704,121 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Slider);
+
+/***/ }),
+
+/***/ "./data/paquetes.jsx":
+/*!***************************!*\
+  !*** ./data/paquetes.jsx ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var data = [{
+  id: "1.1",
+  titulo: "Paquete Completo",
+  personas: '(50-170 Personas)',
+  subtitulo: 'Exclusivo sistema de sonido a 4 vías, Dj versátil con Iluminación y Videoproyección HD.',
+  precio: "MXN $7,500",
+  data: [{
+    info: "Servicio de Dj con booth iluminado y monitores",
+    tip: null
+  }, {
+    info: '2 Bocinas activas de 15"',
+    tip: "Full-range y diseño coaxial, tri-amplificadas, clase D (2000 Watts RMS)"
+  }, {
+    info: '2 Bocinas activos de 3x8"',
+    tip: "Full-range y diseño coaxial, tri-amp, clase D (2000 Wrms)"
+  }, {
+    info: '2 Sub graves de 18" activos',
+    tip: "Clase D (1OOO Wrms)"
+  }, {
+    info: "Mezcladora análoga o digital ",
+    tip: "De 8, 12 o 16 canales"
+  }, {
+    info: "Audio independiente para recepción y ceremonias",
+    tip: null
+  }, {
+    info: "4 Micrófonos dinámicos",
+    tip: null
+  }, {
+    info: "Iluminación DMX / cañones led",
+    tip: "mini robóticas, efectos, luz negra y maquina de humo"
+  }, {
+    info: "Karaoke Profesional",
+    tip: 'Videoproyección HD a pared o con pantalla de 120"'
+  }, {
+    info: "Cajas directas, acondicionador de voltaje ...",
+    tip: "ableado digital AES/EBU, atriles, extensiones eléctricas, etc."
+  }, {
+    info: "Flete en Cancún, instalación y operación técnica.",
+    tip: null
+  }, {
+    info: "6 horas de servicio.",
+    tip: null
+  }]
+}, {
+  id: "1.2",
+  titulo: "Paquete Intermedio",
+  personas: '(30-50 Personas)',
+  subtitulo: "Poderoso sistema de sonido a 3 vías con Dj versátil e Iluminación",
+  precio: "MXN $5,500",
+  data: [{
+    info: "Servicio de Dj con booth iluminado y monitores",
+    tip: null
+  }, {
+    info: '2 Bocinas activos de 3x8"',
+    tip: "Full-range y diseño coaxial, Tri-amplificadas, clase D (2000 Wrms)"
+  }, {
+    info: '2 Sub graves de 18"',
+    tip: "Activos, clase D (1OOO Wrms)"
+  }, {
+    info: "1 Mezcladora análoga o digital de 8, 12 o 16 Ch.",
+    tip: null
+  }, {
+    info: "2 Micrófonos inalámbricos, de mano o de diadema",
+    tip: null
+  }, {
+    info: "Iluminación DMX / cañones led",
+    tip: 'mini robóticas, efectos, luz negra y maquina de humo'
+  }, {
+    info: "Cajas directas, acondicionador de voltaje",
+    tip: 'cableado digital AES/EBU, atriles, extensiones eléctricas, etc.'
+  }, {
+    info: "Flete en Cancún, instalación y operación técnica.",
+    tip: null
+  }, {
+    info: "6 horas de servicio",
+    tip: null
+  }]
+}, {
+  id: "1.3",
+  titulo: "Paquete Basico",
+  personas: '(Hasta 30 Personas)',
+  subtitulo: "Equipo",
+  precio: "MXN $3,500",
+  data: [{
+    info: '1 Sistema de audio lineal compacto"',
+    tip: 'de 450 Wrms con Subwoofer de 15" y conexión bluetooth (2 satélites con 4 bocinas por lado)'
+  }, {
+    info: "1 Mezcladora de 8 canales y Bluetooth",
+    tip: "Interfaz de audio y efectos"
+  }, {
+    info: "1 Micrófono inalámbrico",
+    tip: null
+  }, {
+    info: "Iluminación autorrítmica",
+    tip: null
+  }, {
+    info: "5 horas de servicio",
+    tip: null
+  }]
+}];
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: data
+});
 
 /***/ }),
 
@@ -29170,7 +29265,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_PaqueteCard_PaqueteCard__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/PaqueteCard/PaqueteCard */ "./components/PaqueteCard/PaqueteCard.jsx");
 /* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Footer/Footer */ "./components/Footer/Footer.jsx");
 /* harmony import */ var _static_assets__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/assets */ "./static/assets.js");
+/* harmony import */ var _data_paquetes__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../data/paquetes */ "./data/paquetes.jsx");
 var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/pages/index.jsx";
+
 
 
 
@@ -29186,27 +29283,27 @@ var index = function index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("content", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavDrawer_NavDrawer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
     className: "header",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "bg-video",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("video", {
@@ -29216,7 +29313,7 @@ var index = function index() {
     loop: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
@@ -29224,7 +29321,7 @@ var index = function index() {
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
@@ -29232,21 +29329,21 @@ var index = function index() {
     type: "video/webm",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }), "Your browser is not supported!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "header__text-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "heading-primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -29255,20 +29352,20 @@ var index = function index() {
     alt: "Interaudio Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "heading-primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, COVERTURA, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
@@ -29301,11 +29398,11 @@ var index = function index() {
       lineNumber: 46
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, "\xC7", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     class: "heading-secondary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 48
     },
     __self: this
   }, "Renta de audio e iluminaci\xF3n profesional"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -29328,16 +29425,16 @@ var index = function index() {
       lineNumber: 51
     },
     __self: this
-  }, "WON THE MOMENT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, "Cubrimos audiencias de hasta 300 personas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
     },
     __self: this
-  }, "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, natus? Illo adipisci enim officiis, consequatur quis blanditiis eveniet recusandae molestiae atque reprehenderit dignissimos sunt, molestias nesciunt sit modi maiores. Similique."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, "Audio - Iluminaci\xF3n - Dj - Proyector - Eventos - Fiestas - Bodas - Conciertos - Karaoke - Canc\xFAn - PDC - Tul\xFAm - Cozumel - Quintana Roo - Sound Rent Alquiler de Bocinas equipo de Luz y Sonido Spoken english."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 56
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -29345,66 +29442,57 @@ var index = function index() {
     class: "btn-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 57
     },
     __self: this
   }, "Learn more \u2192")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "section__about--columns-images",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slider__WEBPACK_IMPORTED_MODULE_4__["default"], {
     slides: _static_assets__WEBPACK_IMPORTED_MODULE_7__["default"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 63
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "section__paquetes",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 68
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     class: "heading-secondary section__paquetes--heading-fix",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 69
     },
     __self: this
   }, "Servicios / Eventos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "section__paquetes-card",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 70
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PaqueteCard_PaqueteCard__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PaqueteCard_PaqueteCard__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PaqueteCard_PaqueteCard__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77
-    },
-    __self: this
+  }, _data_paquetes__WEBPACK_IMPORTED_MODULE_8__["default"].data.map(function (p) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PaqueteCard_PaqueteCard__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      paquete: p,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72
+      },
+      __self: this
+    });
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 76
     },
     __self: this
   }));
@@ -29430,7 +29518,7 @@ var assets = {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fflodan00%2Fworkspace%2Fsites%2Finteraudio_next%2Fpages%2Findex.jsx ***!
   \**********************************************************************************************************************************************/
@@ -29453,5 +29541,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

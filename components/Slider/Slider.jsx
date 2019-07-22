@@ -34,7 +34,7 @@ class Slider extends React.Component{
 								<div className="fade">									
 										<img src={images[index]} className="slideshow-container__img"  />
 										<div className="text">
-													{images[index]?images[index].toString():'Nan'}
+												
 										</div>
 								</div>							
 

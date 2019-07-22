@@ -2133,21 +2133,12 @@ function (_Document) {
           lineNumber: 8
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("script", {
-        src: "https://code.jquery.com/jquery-3.4.1.slim.min.js",
-        integrity: "sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=",
-        crossorigin: "anonymous",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 9
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
         rel: "stylesheet",
         href: "/_next/static/style.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 9
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
@@ -2156,7 +2147,7 @@ function (_Document) {
         key: "viewport",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 10
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("script", {
@@ -2164,25 +2155,25 @@ function (_Document) {
         src: "../static/slider.js",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 11
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 14
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 16
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_6__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 18
         },
         __self: this
       })));
