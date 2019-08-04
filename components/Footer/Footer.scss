@@ -1,7 +1,7 @@
 .footer {
 	margin-top: 7rem;
 	height: 30rem;
-	background-color: $color-grey-dark-3;
+	background-image: linear-gradient(to right, #293c57, #296074);
 	padding: 10rem 0;
 	font-size: 1.4rem;
 	color: $color-grey-light-1;
@@ -58,7 +58,7 @@ margin: auto;
 			&:link,
 			&:visited {
 					color: $color-grey-light-1;
-					background-color: $color-grey-dark-3;
+					
 					text-decoration: none;
 					text-transform: uppercase;
 					display: inline-block;
@@ -68,7 +68,7 @@ margin: auto;
 			&:hover,
 			&:active {
 					color: $color-primary;
-					box-shadow: 0 1rem 2rem rgba($color-black, .4);
+					
 					transform: rotate(5deg) scale(1.3);
 			}
 	}

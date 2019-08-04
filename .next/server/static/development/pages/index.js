@@ -544,9 +544,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../scss/main.scss */ "./scss/main.scss");
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "classnames");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next1/components/PaqueteCard/PaqueteCard.jsx";
 
 
+
+var style = {
+  image_1: {
+    backgroundImage: "url('../../static/icons/background_mixer.jpg')"
+  }
+};
 
 var PaqueteCard = function PaqueteCard(paquete) {
   var p = paquete.paquete;
@@ -555,34 +563,42 @@ var PaqueteCard = function PaqueteCard(paquete) {
     className: "card",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card__side card__side--front",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: style.image_1,
+    className: "card__picture",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     className: "card__heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 16
     },
     __self: this
-  }, p.titulo), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, p.titulo)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card__details",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 21
     },
     __self: this
   }, p.data.map(function (i) {
@@ -590,7 +606,7 @@ var PaqueteCard = function PaqueteCard(paquete) {
       key: i.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 23
       },
       __self: this
     }, i.info);
@@ -598,35 +614,35 @@ var PaqueteCard = function PaqueteCard(paquete) {
     className: "card__side card__side--back card__side--back-1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card__cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card__price-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card__price-only",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 32
     },
     __self: this
   }, "Only"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card__price-value",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 33
     },
     __self: this
   }, "$297")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -634,7 +650,7 @@ var PaqueteCard = function PaqueteCard(paquete) {
     className: "btn btn--white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 35
     },
     __self: this
   }, "Book now!"))));
@@ -2241,6 +2257,17 @@ module.exports = require("@material-ui/core/ListItemText");
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/styles");
+
+/***/ }),
+
+/***/ "classnames":
+/*!*****************************!*\
+  !*** external "classnames" ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("classnames");
 
 /***/ }),
 

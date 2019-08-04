@@ -4,9 +4,10 @@
 	perspective: 150rem;
 	-moz-perspective: 150rem;
 	position: relative;
-	height: 32rem;
+	height: auto;
 	position: relative;
 	width: 30%;
+	cursor: pointer;
 	
 	&__side {
 			height: 70rem;
@@ -59,12 +60,13 @@
 			background-blend-mode: screen;
 			-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 			clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-			border-top-left-radius: 3px;
-			border-top-right-radius: 3px;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+
 			
 			// &--1 {
 			// 		background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
-			// 		url(../img/nat-5.jpg);
+			// 		url(../../static/icons/background_mixer.jpg);
 			// }
 
 			// &--2 {
@@ -79,12 +81,15 @@
 	}
 
 	&__heading {
+		margin: 0px auto;
 		margin-top:1.5rem;
 			font-size: 1.8rem;
 			font-weight: 300;
 			text-transform: uppercase;
 			text-align: center;
-			color: black;
+			color: white;
+			z-index: 3;
+			position: absolute
 		
 	}
 
@@ -112,7 +117,7 @@
 	}
 
 	&__details {
-			padding: 3rem;
+			padding: .5rem;
 
 			ul {
 					list-style: none;
@@ -120,9 +125,9 @@
 					margin: 0 auto;
 
 					li {
-							text-align: center;
-							font-size: 1.5rem;
-							padding: 1rem;
+							text-align: left;
+							font-size: 1rem;
+							padding: .5rem;
 
 							&:not(:last-child) {
 									border-bottom: 1px solid $color-grey-light-2;

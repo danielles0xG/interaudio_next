@@ -1,13 +1,22 @@
 import '../../scss/main.scss';
+import  classNames from 'classnames'
 
+const style = {
+	image_1: {
+		backgroundImage: "url('../../static/icons/background_mixer.jpg')"
+	}
+}
 
 const PaqueteCard = (paquete) => {	
 	let p  = paquete.paquete
 	return (
 						<div key={paquete.id} className="card">
 							<div className="card__side card__side--front">
+							<div style={style.image_1} className="card__picture">
+									<h4 className="card__heading">{p.titulo}</h4>
+								</div>
 
-								<h4 className="card__heading">{p.titulo}</h4>
+								
 								<div className="card__details">
 									<ul>
 											{p.data.map(i => (
@@ -29,6 +38,5 @@ const PaqueteCard = (paquete) => {
 						</div>
 		)
 }
-
 
 export default PaqueteCard;
