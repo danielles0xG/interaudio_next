@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
 body {
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
@@ -8,14 +9,14 @@ body {
 
 .heading-primary {
 	color: $color-white;
-	text-transform: uppercase;
-
 	backface-visibility: hidden;
 	margin-bottom: 6rem;
+	font-family: 'Oxygen', sans-serif;
+	text-transform: uppercase;
 
 	&--main {
 			display: block;
-			font-size: 6rem;
+			font-size: 4rem;
 			font-weight: 400;
 			letter-spacing: 3.5rem;
 			background-origin: solid;
@@ -48,15 +49,17 @@ body {
 }
 
 .heading-secondary {
-	font-size: 3.5rem;
+	font-size: 4rem;
 	text-transform: uppercase;
+	line-height: initial;
 	font-weight: 700;
 	display: inline-block;
 	background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
 	-webkit-background-clip: text;
 	color: transparent;
-	letter-spacing: .2rem;
-	transition: all .2s;
+	font-family: 'Oxygen', sans-serif;
+	text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+//	transition: all .2s;
 
 	@include respond(tab-port) {
 			font-size: 3rem;
@@ -67,19 +70,20 @@ body {
 	}
 
 	&:hover {
-			transform: skewY(2deg) skewX(15deg) scale(1.1);
-			text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+			
 	}
 }
 
 .heading-tertiary {
-	font-size: $default-font-size;
 	font-weight: 700;
-	text-transform: uppercase;
+	font-size: 2rem;
+	font-family: 'Oxygen', sans-serif;
 }
 
 .paragraph {
-	font-size: $default-font-size;
+	font-size: 1.5rem;
+	font-weight: 700;
+	font-family: 'Oxygen', sans-serif;
 
 	&:not(:last-child) {
 			margin-bottom: 3rem;

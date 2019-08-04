@@ -4,26 +4,26 @@ import '../../scss/main.scss';
 const PaqueteCard = (paquete) => {	
 	let p  = paquete.paquete
 	return (
-						<div key={paquete.id} class="card">
-							<div class="card__side card__side--front">
+						<div key={paquete.id} className="card">
+							<div className="card__side card__side--front">
 
-								<h4 class="card__heading">{p.titulo}</h4>
-								<div class="card__details">
+								<h4 className="card__heading">{p.titulo}</h4>
+								<div className="card__details">
 									<ul>
 											{p.data.map(i => (
-												<li>{i.info}</li>
+												<li key={i.id}>{i.info}</li>
 											))}
 									</ul>
 								</div>
 							</div>
 
-							<div class="card__side card__side--back card__side--back-1">
-								<div class="card__cta">
-									<div class="card__price-box">
-										<p class="card__price-only">Only</p>
-										<p class="card__price-value">$297</p>
+							<div className="card__side card__side--back card__side--back-1">
+								<div className="card__cta">
+									<div className="card__price-box">
+										<p className="card__price-only">Only</p>
+										<p className="card__price-value">$297</p>
 									</div>
-									<a href="#popup" class="btn btn--white">Book now!</a>
+									<a href="#popup" className="btn btn--white">Book now!</a>
 								</div>
 							</div>
 						</div>

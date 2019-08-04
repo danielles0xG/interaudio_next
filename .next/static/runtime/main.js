@@ -6671,7 +6671,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "/Users/flodan00/workspace/sites/interaudio_next/.next");
+      source_map_support_1.rewriteStacktrace(error, "/Users/flodan00/workspace/sites/interaudio_next1/.next");
       return error;
     }
   };

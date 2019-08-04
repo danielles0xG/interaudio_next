@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../scss/main.scss */ "./scss/main.scss");
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/components/Footer/Footer.jsx";
+var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next1/components/Footer/Footer.jsx";
 
 
 
@@ -269,7 +269,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/components/NavDrawer/NavDrawer.jsx";
+var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next1/components/NavDrawer/NavDrawer.jsx";
 
 
 
@@ -544,7 +544,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../scss/main.scss */ "./scss/main.scss");
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/components/PaqueteCard/PaqueteCard.jsx";
+var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next1/components/PaqueteCard/PaqueteCard.jsx";
 
 
 
@@ -552,28 +552,28 @@ var PaqueteCard = function PaqueteCard(paquete) {
   var p = paquete.paquete;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     key: paquete.id,
-    class: "card",
+    className: "card",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "card__side card__side--front",
+    className: "card__side card__side--front",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-    class: "card__heading",
+    className: "card__heading",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, p.titulo), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "card__details",
+    className: "card__details",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -587,6 +587,7 @@ var PaqueteCard = function PaqueteCard(paquete) {
     __self: this
   }, p.data.map(function (i) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      key: i.id,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14
@@ -594,35 +595,35 @@ var PaqueteCard = function PaqueteCard(paquete) {
       __self: this
     }, i.info);
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "card__side card__side--back card__side--back-1",
+    className: "card__side card__side--back card__side--back-1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "card__cta",
+    className: "card__cta",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "card__price-box",
+    className: "card__price-box",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    class: "card__price-only",
+    className: "card__price-only",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
   }, "Only"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    class: "card__price-value",
+    className: "card__price-value",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -630,7 +631,7 @@ var PaqueteCard = function PaqueteCard(paquete) {
     __self: this
   }, "$297")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#popup",
-    class: "btn btn--white",
+    className: "btn btn--white",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
@@ -656,153 +657,106 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../scss/main.scss */ "./scss/main.scss");
-/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../scss/main.scss */ "./scss/main.scss");
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_image_gallery__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-image-gallery */ "react-image-gallery");
+/* harmony import */ var react_image_gallery__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_image_gallery__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_image_gallery_styles_css_image_gallery_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-image-gallery/styles/css/image-gallery.css */ "./node_modules/react-image-gallery/styles/css/image-gallery.css");
+/* harmony import */ var react_image_gallery_styles_css_image_gallery_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_image_gallery_styles_css_image_gallery_css__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
 
 
+var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next1/components/Slider/Slider.jsx";
 
 
-var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/components/Slider/Slider.jsx";
 
 
+var images = [{
+  original: '../../static/images/01_Pristine_audio_quality.jpg'
+}, {
+  original: '../../static/images/02_Sonorización_Profesional.jpg'
+}, {
+  original: '../../static/images/03_Live_Sound.jpg'
+}, {
+  original: '../../static/images/04_Refuerzo_Sonoro.jpg'
+}, {
+  original: '../../static/images/05_Dj_VDj.jpg'
+}, {
+  original: '../../static/images/06_International_Djs.jpg'
+}, {
+  original: '../../static/images/07_Mezcla_y_grabación_en_vivo.jpg'
+}, {
+  original: '../../static/images/08_PA_Speakers_rental.jpg'
+}, {
+  original: '../../static/images/10_Fiestas_de_cumpleaños.jpg'
+}, {
+  original: '../../static/images/11_Pool_party.jpg'
+}, {
+  original: '../../static/images/12_Sistema_lineal_compacto_array_450_W.jpg'
+}, {
+  original: '../../static/images/13_Wall_of_Sound.jpg'
+}, {
+  original: '../../static/images/14_Israeliens.jpg'
+}, {
+  original: '../../static/images/15_your_stage_partner.jpg'
+}, {
+  original: '../../static/images/16_dj_boda.jpg'
+}, {
+  original: '../../static/images/17_selina.jpg'
+}, {
+  original: '../../static/images/18_urano_130.jpg'
+}];
 
 var Slider =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Slider, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Slider, _React$Component);
 
   function Slider() {
-    var _getPrototypeOf2;
-
-    var _this;
-
     Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Slider);
 
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Slider)).call.apply(_getPrototypeOf2, [this].concat(args)));
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {
-      index: 1,
-      images: _this.props.slides.images
-    });
-
-    return _this;
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Slider).apply(this, arguments));
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Slider, [{
-    key: "_plusSlides",
-    value: function _plusSlides() {
-      var _this$state = this.state,
-          index = _this$state.index,
-          images = _this$state.images;
-
-      if (index === images.length - 1) {
-        return this.setState({
-          index: 0
-        });
-      } else {
-        return this.setState({
-          index: index + 1
-        });
-      }
-    }
-  }, {
-    key: "_currentSlides",
-    value: function _currentSlides() {
-      var _this$state2 = this.state,
-          index = _this$state2.index,
-          images = _this$state2.images;
-
-      if (index === 0) {
-        return this.setState({
-          index: images.length - 1
-        });
-      } else {
-        return this.setState({
-          index: index - 1
-        });
-      }
-    }
-  }, {
     key: "render",
     value: function render() {
-      var _this2 = this;
-
-      var images = this.props.slides.images;
-      var index = this.state.index;
-      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "slideshow-container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 31
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "fade",
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_image_gallery__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        style: {
+          borderRadius: '5px'
+        },
+        items: images,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 32
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-        src: images[index],
-        className: "slideshow-container__img",
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+        href: "#",
+        className: "slideshow-container--informes_btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 37
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "text",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
-        className: "slideshow-container__controls",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        className: "prev",
-        onClick: function onClick() {
-          return _this2._currentSlides();
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      }, "\u276E"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-        className: "next",
-        onClick: function onClick() {
-          return _this2._plusSlides();
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, "\u276F")));
+      }, "Informes \u2192"));
     }
   }]);
 
   return Slider;
-}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Slider);
 
@@ -1913,6 +1867,17 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
+/***/ "./node_modules/react-image-gallery/styles/css/image-gallery.css":
+/*!***********************************************************************!*\
+  !*** ./node_modules/react-image-gallery/styles/css/image-gallery.css ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./pages/index.jsx":
 /*!*************************!*\
   !*** ./pages/index.jsx ***!
@@ -1932,10 +1897,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Slider_Slider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Slider/Slider */ "./components/Slider/Slider.jsx");
 /* harmony import */ var _components_PaqueteCard_PaqueteCard__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/PaqueteCard/PaqueteCard */ "./components/PaqueteCard/PaqueteCard.jsx");
 /* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Footer/Footer */ "./components/Footer/Footer.jsx");
-/* harmony import */ var _static_assets__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/assets */ "./static/assets.js");
-/* harmony import */ var _data_paquetes__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../data/paquetes */ "./data/paquetes.jsx");
-var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next/pages/index.jsx";
-
+/* harmony import */ var _data_paquetes__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../data/paquetes */ "./data/paquetes.jsx");
+var _jsxFileName = "/Users/flodan00/workspace/sites/interaudio_next1/pages/index.jsx";
 
 
 
@@ -1951,27 +1914,27 @@ var index = function index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("content", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavDrawer_NavDrawer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
     className: "header",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "bg-video",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("video", {
@@ -1981,7 +1944,7 @@ var index = function index() {
     loop: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
@@ -1989,7 +1952,7 @@ var index = function index() {
     type: "video/mp4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("source", {
@@ -1997,21 +1960,21 @@ var index = function index() {
     type: "video/webm",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
   }), "Your browser is not supported!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "header__text-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "heading-primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -2020,7 +1983,7 @@ var index = function index() {
     alt: "Interaudio Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
@@ -2066,7 +2029,7 @@ var index = function index() {
       lineNumber: 46
     },
     __self: this
-  }, "\xC7", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     class: "heading-secondary",
     __source: {
       fileName: _jsxFileName,
@@ -2077,90 +2040,90 @@ var index = function index() {
     className: "section__about--columns",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 52
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("aside", {
     className: "section__about--columns-aside",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 54
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, "Cubrimos audiencias de hasta 300 personas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }, "Audio - Iluminaci\xF3n - Dj - Proyector - Eventos - Fiestas - Bodas - Conciertos - Karaoke - Canc\xFAn - PDC - Tul\xFAm - Cozumel - Quintana Roo - Sound Rent Alquiler de Bocinas equipo de Luz y Sonido Spoken english."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 56
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#",
-    class: "btn-text",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "heading-tertiary",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57
     },
     __self: this
-  }, "Learn more \u2192")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Cubrimos audiencias de hasta 300 personas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "paragraph",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "Audio - Iluminaci\xF3n - Dj - Proyector - Eventos - Fiestas - Bodas - Conciertos - Karaoke - Canc\xFAn - PDC - Tul\xFAm - Cozumel - Quintana Roo - Sound Rent Alquiler de Bocinas equipo de Luz y Sonido Spoken english."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "section__about--columns-images",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 71
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slider_Slider__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    slides: _static_assets__WEBPACK_IMPORTED_MODULE_7__["default"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 72
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     className: "section__paquetes",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 80
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     class: "heading-secondary section__paquetes--heading-fix",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 81
     },
     __self: this
   }, "Servicios / Eventos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "section__paquetes-card",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 84
     },
     __self: this
-  }, _data_paquetes__WEBPACK_IMPORTED_MODULE_8__["default"].data.map(function (p) {
+  }, _data_paquetes__WEBPACK_IMPORTED_MODULE_7__["default"].data.map(function (p) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PaqueteCard_PaqueteCard__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      key: p.id,
       paquete: p,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 72
+        lineNumber: 86
       },
       __self: this
     });
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 90
     },
     __self: this
   }));
@@ -2181,30 +2144,14 @@ var index = function index() {
 
 /***/ }),
 
-/***/ "./static/assets.js":
-/*!**************************!*\
-  !*** ./static/assets.js ***!
-  \**************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var assets = {
-  images: ['../static/images/01_Pristine_audio_quality.jpg', '../static/images/02_Sonorización_Profesional.jpg', '../static/images/03_Live_Sound.jpg', '../static/images/04_Refuerzo_Sonoro.jpg', '../static/images/05_Dj_VDj.jpg', '../static/images/06_International_Djs.jpg', '../static/images/07_Mezcla_y_grabación_en_vivo.jpg', '../static/images/08_PA_Speakers_rental.jpg', '../static/images/10_Fiestas_de_cumpleaños.jpg', '../static/images/11_Pool_party.jpg', '../static/images/12_Sistema_lineal_compacto_array_450_W.jpg', '../static/images/13_Wall_of_Sound.jpg', '../static/images/14_Israeliens.jpg', '../static/images/15_your_stage_partner.jpg', '../static/images/16_dj_boda.jpg', '../static/images/17_selina.jpg', '../static/images/18_urano_130.jpg']
-};
-/* harmony default export */ __webpack_exports__["default"] = (assets);
-
-/***/ }),
-
-/***/ 4:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/index.jsx ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/flodan00/workspace/sites/interaudio_next/pages/index.jsx */"./pages/index.jsx");
+module.exports = __webpack_require__(/*! /Users/flodan00/workspace/sites/interaudio_next1/pages/index.jsx */"./pages/index.jsx");
 
 
 /***/ }),
@@ -2481,6 +2428,17 @@ module.exports = require("prop-types-exact");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-image-gallery":
+/*!**************************************!*\
+  !*** external "react-image-gallery" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-image-gallery");
 
 /***/ }),
 

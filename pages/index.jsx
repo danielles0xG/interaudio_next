@@ -4,7 +4,6 @@ import NavDrawer from '../components/NavDrawer/NavDrawer';
 import Slider from '../components/Slider/Slider';
 import PaqueteCard from '../components/PaqueteCard/PaqueteCard';
 import Footer from '../components/Footer/Footer';
-import assets from '../static/assets';
 import data from '../data/paquetes';
 
 const COVERTURA = 'Cancun - Tulum - Isla Mujeres - Cozumel';
@@ -25,7 +24,8 @@ const index = () => (
 
 			<div className="header__text-box">
 				<h1 className="heading-primary">
-					<img src="../static/images/slogan-transparent.png" className="header__logo" alt="Interaudio Logo" />
+					<img src="../static/images/slogan-transparent.png"
+					     className="header__logo" alt="Interaudio Logo" />
 					<br />
 					<span className="heading-primary">
 						{COVERTURA}
@@ -44,34 +44,48 @@ const index = () => (
 		</header>
 
 		<section class="section__about">
-			Ç
-			<h2 class="heading-secondary">Renta de audio e iluminación profesional</h2>
+			
+			<h2 class="heading-secondary">
+					Renta de audio e iluminación profesional
+			</h2>
+			
 			<div className="section__about--columns">
+			
 				<aside className="section__about--columns-aside">
-					<h1 >Cubrimos audiencias de hasta 300 personas</h1>
-					<h2>
-					Audio - Iluminación - Dj - Proyector - Eventos - Fiestas - Bodas - Conciertos - Karaoke - Cancún - PDC - Tulúm - Cozumel - Quintana Roo - Sound Rent Alquiler de Bocinas equipo de Luz y Sonido 
-					Spoken english.
-					</h2>
-					<br />
-					<a href="#" class="btn-text">
-						Learn more &rarr;
-					</a>
+
+					<div>
+						<h1 	className="heading-tertiary" >
+								Cubrimos audiencias de hasta 300 personas
+						</h1>
+						<br/>
+							<p className="paragraph">
+									Audio - Iluminación - Dj - Proyector - Eventos - Fiestas
+									- Bodas - Conciertos - Karaoke - Cancún - PDC - Tulúm - Cozumel 
+									- Quintana Roo - Sound Rent Alquiler de Bocinas equipo de Luz y Sonido 
+									Spoken english.
+							</p>					
+					</div>
 				</aside>
+				
 
 				<div className="section__about--columns-images">
-					<Slider slides={assets} />
+					<Slider/>
+				
 				</div>
+
+				
 			</div>
 		</section>
 
 		<section className="section__paquetes">
-			<h2 class="heading-secondary section__paquetes--heading-fix">Servicios / Eventos</h2>
-			<div className="section__paquetes-card">
-					{data.data.map(p => (
-							<PaqueteCard paquete={p}/>
-					))}			 									
-			</div>
+				<h2 class="heading-secondary section__paquetes--heading-fix">
+						Servicios / Eventos
+				</h2>
+				<div className="section__paquetes-card">
+						{data.data.map(p => (
+								<PaqueteCard key={p.id}  paquete={p}/>
+						))}			 									
+				</div>
 		</section>
 		<Footer />
 	</content>
