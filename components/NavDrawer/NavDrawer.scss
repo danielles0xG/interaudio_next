@@ -1,0 +1,16 @@
+.nav_drawer {
+	width: 20rem;
+	&__list{
+		
+
+		&--link{
+			 font-size: 2rem;
+			 text-decoration: none;
+			  :visited{
+				color: black;
+			 }
+		}
+
+	}
+	
+}

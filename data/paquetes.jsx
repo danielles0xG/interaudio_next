@@ -1,9 +1,9 @@
 const data = [
   {
-    id: "1.1",
-    titulo: `Paquete Completo`,
+    id: "1",
+    titulo: `Completo`,
     personas:'(50-170 Personas)',
-    subtitulo: 'Exclusivo sistema de sonido a 4 vías, Dj versátil con Iluminación y Videoproyección HD.',
+    subtitulo: 'Sistema de sonido completo, Dj, Iluminación y Videoproyección HD.',
     precio: "MXN $7,500",
     data: [
       {
@@ -57,8 +57,8 @@ const data = [
     ]
   },
   {
-    id: "1.2",
-    titulo: "Paquete Intermedio",
+    id: "2",
+    titulo: "Intermedio",
     personas:'(30-50 Personas)',
     subtitulo: "Poderoso sistema de sonido a 3 vías con Dj versátil e Iluminación",
     precio: "MXN $5,500",
@@ -102,10 +102,10 @@ const data = [
     ]
   },
   {
-    id: "1.3",
-    titulo: "Paquete Basico",
+    id: "3",
+    titulo: "Basico",
     personas:'(Hasta 30 Personas)',
-    subtitulo: "Equipo",
+    subtitulo: "Equipo de sonido completo para evento social",
     precio: "MXN $3,500",
     data: [
       {

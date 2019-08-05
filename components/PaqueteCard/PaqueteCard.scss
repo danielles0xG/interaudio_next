@@ -1,5 +1,7 @@
-.card {
 
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap');
+.card {
 	// FUNCTIONALITY
 	perspective: 150rem;
 	-moz-perspective: 150rem;
@@ -24,21 +26,27 @@
 
 			&--front {
 					background-color: $color-white;
+					height: auto;
 			}
 
 			&--back {
 					transform: rotateY(180deg);
 
 					&-1 {
-							background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+							background-image: 
+							linear-gradient(to right bottom,
+							 $color-secondary-light, $color-secondary-dark);
 					}
 
 					&-2 {
-							background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+							background-image:
+							 linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
 					}
 
 					&-3 {
-							background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+							background-image: 
+							linear-gradient(to right bottom, 
+							$color-tertiary-light, $color-tertiary-dark);
 					}
 			}
 	}
@@ -56,14 +64,15 @@
 	// FRONT SIDE STYLING
 	&__picture {
 			background-size: cover;
-			height: 13rem;
+			height: 20rem;
 			background-blend-mode: screen;
 			-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 			clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 			border-top-left-radius: 5px;
 			border-top-right-radius: 5px;
-
+			padding-top: 3rem;
 			
+
 			// &--1 {
 			// 		background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
 			// 		url(../../static/icons/background_mixer.jpg);
@@ -81,16 +90,19 @@
 	}
 
 	&__heading {
-		margin: 0px auto;
-		margin-top:1.5rem;
-			font-size: 1.8rem;
+		margin: 2rem auto;
+			font-size: 3rem;
 			font-weight: 300;
 			text-transform: uppercase;
 			text-align: center;
 			color: white;
 			z-index: 3;
-			position: absolute
+//			font-family: 'Oxygen', sans-serif;
+			font-family: 'Saira Stencil One', cursive;	
+			font-weight: 900;
+			letter-spacing: .5rem;			
 		
+
 	}
 
 	&__heading-span {
@@ -117,17 +129,36 @@
 	}
 
 	&__details {
+
 			padding: .5rem;
+
+			&--subtitulo {
+				height: 8rem;
+				display: none;
+				text-align: center;
+				padding: 1rem;
+				display: flex;
+				align-items: center;
+				font-size: rem;
+				font-weight: 700;
+				font-size: 2rem;
+				font-family: 'Saira Stencil One', cursive;
+				font-family: 'Changa', sans-serif;			
+				
+					
+			}
 
 			ul {
 					list-style: none;
-					width: 95%;
+					width: 90%;
 					margin: 0 auto;
+					margin-top: 1rem;
 
 					li {
 							text-align: left;
-							font-size: 1rem;
+							font-size: 1.5rem;
 							padding: .5rem;
+							margin-left: 1.5rem;
 
 							&:not(:last-child) {
 									border-bottom: 1px solid $color-grey-light-2;

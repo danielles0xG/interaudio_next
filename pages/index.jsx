@@ -33,19 +33,31 @@ const index = () => (
 						{TELEFONO}
 					</span>
 				</h1>
-				<a href="#section-tours" className="header__socialIcon">
-					<img
-						className="header__socialIcon--whatsApp"
-						src="../static/icons/whatsapp-480px.png"
-						alt="Contacto WhatsApp"
-					/>
-				</a>
+
+				<div className="header__socialIcons">
+							<a  href="https://api.whatsapp.com/send?phone=5219982184616" target="_blank" >
+								<img className="header__socialIcons--icon"
+										src="../static/icons/icons8-whatsapp-100.png"
+										alt="Contacto WhatsApp"/>
+							</a>
+							<a  href="https://www.facebook.com/SonoZens" target="_blank">
+								<img className="header__socialIcons--icon"
+										src="../static/icons/icons8-facebook-100.png"
+										alt="Contacto WhatsApp"/>
+							</a>
+							<a href="mailto:contacto@interaudio.mx" target="_blank">
+								<img className="header__socialIcons--icon"
+										src="../static/icons/icons8-gmail-100.png"
+										alt="Contacto WhatsApp"/>
+							</a>
+				</div>
+
 			</div>
 		</header>
 
-		<section class="section__about">
+		<section className="section__about">
 			
-			<h2 class="heading-secondary">
+			<h2 className="heading-secondary">
 					Renta de audio e iluminación profesional
 			</h2>
 			
@@ -78,7 +90,7 @@ const index = () => (
 		</section>
 
 		<section className="section__paquetes">
-				<h2 class="heading-secondary section__paquetes--heading-fix">
+				<h2 className="heading-secondary section__paquetes--heading-fix">
 						Servicios / Eventos
 				</h2>
 				<div className="section__paquetes-card">
@@ -87,7 +99,11 @@ const index = () => (
 						))}			 									
 				</div>
 		</section>
-		<Footer />
+
+		<section className='section-footer'>
+						<Footer />
+		</section>
+		
 	</content>
 );
 
