@@ -9,7 +9,7 @@ import data from '../data/paquetes';
 const COVERTURA = 'Cancun - Tulum - Isla Mujeres - Cozumel';
 const TELEFONO = '(998) 2 18 46 16';
 
-const index = () => (
+const Home = () => (
 	<content>
 		<NavDrawer />
 
@@ -56,7 +56,7 @@ const index = () => (
 		</header>
 
 		<section className="section__about">
-			
+		
 			<h2 className="heading-secondary">
 					Renta de audio e iluminación profesional
 			</h2>
@@ -107,4 +107,4 @@ const index = () => (
 	</content>
 );
 
-export default index;
+export default Home;
