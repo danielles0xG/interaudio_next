@@ -28,7 +28,7 @@ function NavDrawer() {
 			onKeyDown={toggleDrawer(side, false)}>
 			<List className="nav_drawer__list">
 
-				<Link href='/'>
+				<Link href='/index'>
 					<ListItem button key='Inicio'>
 						<ListItemIcon>
 							<TiHomeOutline size='2rem' />
