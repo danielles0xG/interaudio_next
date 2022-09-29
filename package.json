@@ -25,7 +25,7 @@
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-image-gallery": "^0.8.18",
-    "recharts": "^1.6.2",
+    "recharts": "^2.1.14",
     "responsive-loader": "^1.2.0",
     "svg-sprite-loader": "^4.1.6",
     "webp-loader": "^0.5.0"
